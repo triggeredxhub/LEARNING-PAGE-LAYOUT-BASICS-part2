@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Make it a column layout */
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .row {
+    flex: 1; /* Each row takes an equal portion of vertical space */
+    background-color: #f0f0f0; /* For demonstration purposes */
+    margin: 5px; /* Add some spacing between rows */
+  }
+  
+  .column {
+    background-color: #c0c0c0; /* For demonstration purposes */
+  }
+  
+  
