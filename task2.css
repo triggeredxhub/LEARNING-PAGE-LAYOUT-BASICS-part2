@@ -1,17 +1,98 @@
-.container {
-    display: flex;
-    flex-direction: column; /* Make it a column layout */
-    height: 300px; /* Adjust the height as needed */
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav{
+  background-color: beige;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bolder;
+}
+.content{
+  display: flex;
+  
+}
+main{
+  display: flex;
+  flex-direction: column;
+
+}
+.part{
+  flex: 1; /* Equal width for all columns */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+aside{
+  float: left;
+  background-color: #f9f9f9;
+  margin: 20px;
+  padding: 20px;
+
+}
+.right{
+  background-color: #f9f9f9;
+}
+/* Task 1: Text Color */
+.color-example h3 {
+  color: #0073e6;
   }
   
-  .row {
-    flex: 1; /* Each row takes an equal portion of vertical space */
-    background-color: #f0f0f0; /* For demonstration purposes */
-    margin: 5px; /* Add some spacing between rows */
-  }
+/* Task 2: Background Color */
+.color-example p {
+  background-color: #f0d98c;
+}
+/* Task 1: Font Family and Size */
+.typography-example p {
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+/* Task 2: Text Alignment and Line Height */
+.typography-example p {
+  text-align: left;
+  line-height: 1.6;
+}
+/* Task 1: ID Selector */
+#uniqueDiv {
+  background-color: #64b5f6;
+  font-size: 18px;
+}
+/* Task 2: Class Selector */
+.info {
+  border: 2px solid #4caf50;
+  padding: 10px;
+}
+.right h2{
+  text-align: center;
+  padding: 10px;
+}
+.Glossary{
+  margin: 20px;
+  padding: 15px;
+}
+.Glossary h4{
+  font-weight: bold;
+}
+
+footer{
+
+border-top: 1px solid #555;
+background-color: #333; 
+color: #fff; 
+padding: 20px; 
+text-align: center; 
+margin-top: auto;
+}
   
-  .column {
-    background-color: #c0c0c0; /* For demonstration purposes */
-  }
   
   
